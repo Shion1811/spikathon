@@ -58,14 +58,6 @@
           名刺交換・相手情報の確認・リードの仕分けを、<br />
           会話から視線を切らさずハンズフリーで行える次世代ツール。
         </p>
-        <!-- <div class="hero-ctas">
-          <a href="#product" class="btn-primary" id="hero-primary-cta"
-            >プロダクトを見る →</a
-          >
-          <a href="#problem" class="btn-secondary" id="hero-secondary-cta"
-            >課題を見る</a
-          >
-        </div> -->
       </div>
       <div class="hero-scroll">SCROLL</div>
     </section>
@@ -81,7 +73,102 @@
         <div class="problem-grid">
           <div class="problem-card reveal reveal-d1" id="problem-card-1">
             <p class="p-num">01</p>
-            <p class="p-icon">📇</p>
+            <!-- 📇 → 名刺/フォローアップアイコン -->
+            <div class="p-icon">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <rect
+                  x="4"
+                  y="10"
+                  width="32"
+                  height="20"
+                  rx="3"
+                  stroke="#00d4ff"
+                  stroke-width="1.6"
+                />
+                <line
+                  x1="10"
+                  y1="17"
+                  x2="24"
+                  y2="17"
+                  stroke="#00d4ff"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+                <line
+                  x1="10"
+                  y1="21"
+                  x2="20"
+                  y2="21"
+                  stroke="#00d4ff"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  opacity="0.6"
+                />
+                <line
+                  x1="10"
+                  y1="25"
+                  x2="16"
+                  y2="25"
+                  stroke="#00d4ff"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  opacity="0.35"
+                />
+                <circle
+                  cx="30"
+                  cy="19"
+                  r="3.5"
+                  stroke="#00d4ff"
+                  stroke-width="1.5"
+                />
+                <!-- 時計アイコン（後回しを表現） -->
+                <circle
+                  cx="33"
+                  cy="32"
+                  r="5"
+                  stroke="#00d4ff"
+                  stroke-width="1.4"
+                  opacity="0.85"
+                />
+                <line
+                  x1="33"
+                  y1="29.5"
+                  x2="33"
+                  y2="32"
+                  stroke="#00d4ff"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                  opacity="0.85"
+                />
+                <line
+                  x1="33"
+                  y1="32"
+                  x2="35"
+                  y2="33.5"
+                  stroke="#00d4ff"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                  opacity="0.85"
+                />
+                <line
+                  x1="29"
+                  y1="30"
+                  x2="31"
+                  y2="28"
+                  stroke="#00d4ff"
+                  stroke-width="1.2"
+                  stroke-linecap="round"
+                  opacity="0.5"
+                />
+              </svg>
+            </div>
             <p class="p-title">フォローアップの後回し</p>
             <p class="p-text">
               イベントでの名刺交換は「もらって終わり」になりやすく、フォローアップの優先度付けが後回しになる。有望なリードが埋もれてしまう。
@@ -89,7 +176,79 @@
           </div>
           <div class="problem-card reveal reveal-d2" id="problem-card-2">
             <p class="p-num">02</p>
-            <p class="p-icon">📱</p>
+            <!-- 📱 → スマホ×禁止マークアイコン -->
+            <div class="p-icon">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <rect
+                  x="10"
+                  y="5"
+                  width="14"
+                  height="24"
+                  rx="3"
+                  stroke="#00d4ff"
+                  stroke-width="1.6"
+                />
+                <line
+                  x1="13"
+                  y1="24"
+                  x2="21"
+                  y2="24"
+                  stroke="#00d4ff"
+                  stroke-width="1.3"
+                  stroke-linecap="round"
+                  opacity="0.5"
+                />
+                <rect
+                  x="15"
+                  y="9"
+                  width="4"
+                  height="3"
+                  rx="1"
+                  fill="#00d4ff"
+                  opacity="0.4"
+                />
+                <!-- 眼（リアルタイム情報を表現） -->
+                <ellipse
+                  cx="30"
+                  cy="14"
+                  rx="6"
+                  ry="4"
+                  stroke="#00d4ff"
+                  stroke-width="1.5"
+                  opacity="0.9"
+                />
+                <circle cx="30" cy="14" r="2" fill="#00d4ff" opacity="0.7" />
+                <!-- 斜線（情報が得られない） -->
+                <line
+                  x1="24"
+                  y1="8"
+                  x2="36"
+                  y2="20"
+                  stroke="#f97d75"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  opacity="0.8"
+                />
+                <!-- 疑問符 -->
+                <text
+                  x="27"
+                  y="32"
+                  fill="#00d4ff"
+                  font-size="10"
+                  font-family="monospace"
+                  opacity="0.7"
+                >
+                  ?
+                </text>
+              </svg>
+            </div>
             <p class="p-title">リアルタイム情報の欠如</p>
             <p class="p-text">
               会話中にスマホで相手情報を調べる行為は失礼にあたり、リアルタイムに情報を得る手段が存在しない。機会損失が生まれている。
@@ -97,7 +256,88 @@
           </div>
           <div class="problem-card reveal reveal-d3" id="problem-card-3">
             <p class="p-num">03</p>
-            <p class="p-icon">🗂️</p>
+            <!-- 🗂️ → 書類×こぼれるアイコン -->
+            <div class="p-icon">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <!-- フォルダ -->
+                <path
+                  d="M4 16 Q4 12 8 12 L16 12 L18 10 L32 10 Q36 10 36 14 L36 28 Q36 32 32 32 L8 32 Q4 32 4 28 Z"
+                  stroke="#00d4ff"
+                  stroke-width="1.6"
+                  fill="none"
+                />
+                <!-- 書類ライン -->
+                <line
+                  x1="10"
+                  y1="20"
+                  x2="22"
+                  y2="20"
+                  stroke="#00d4ff"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                  opacity="0.7"
+                />
+                <line
+                  x1="10"
+                  y1="24"
+                  x2="18"
+                  y2="24"
+                  stroke="#00d4ff"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                  opacity="0.5"
+                />
+                <!-- こぼれる書類（取りこぼし表現） -->
+                <rect
+                  x="26"
+                  y="22"
+                  width="10"
+                  height="13"
+                  rx="2"
+                  stroke="#00d4ff"
+                  stroke-width="1.3"
+                  opacity="0.6"
+                  transform="rotate(15 31 28.5)"
+                />
+                <rect
+                  x="22"
+                  y="25"
+                  width="10"
+                  height="13"
+                  rx="2"
+                  stroke="#f97d75"
+                  stroke-width="1.3"
+                  opacity="0.7"
+                  transform="rotate(-10 27 31.5)"
+                />
+                <!-- 下矢印（落ちる） -->
+                <line
+                  x1="28"
+                  y1="33"
+                  x2="28"
+                  y2="38"
+                  stroke="#f97d75"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                  opacity="0.6"
+                />
+                <polyline
+                  points="25,36 28,39 31,36"
+                  stroke="#f97d75"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  opacity="0.6"
+                />
+              </svg>
+            </div>
             <p class="p-title">有望リードの取りこぼし</p>
             <p class="p-text">
               イベント後、大量の名刺・リードを記憶に頼って仕分けるため、有望なリードを取りこぼす。記憶の限界が成果を制限している。
@@ -191,7 +431,6 @@
         <div class="feat-grid">
           <!-- プロフィール表示 -->
           <div class="feat-card reveal reveal-d1" id="feat-card-1">
-            <div class="feat-icon">👁️</div>
             <p class="feat-title">プロフィール表示（AR HUD）</p>
             <p class="feat-text">
               QRスキャンで相手情報を視界内に即時表示。会社名・概要・プロダクト・名前・メール・電話・部署まで一目で把握できる。
@@ -220,7 +459,6 @@
           </div>
           <!-- 仕分け -->
           <div class="feat-card reveal reveal-d2" id="feat-card-2">
-            <div class="feat-icon">🎯</div>
             <p class="feat-title">リード仕分け（物理ボタン）</p>
             <p class="feat-text">
               会話しながらボタン操作だけで仕分け完了。イベント後の整理作業ゼロを実現する、ハンズフリーUX。
@@ -234,7 +472,6 @@
           </div>
           <!-- リード活用 -->
           <div class="feat-card reveal reveal-d3" id="feat-card-3">
-            <div class="feat-icon">🚀</div>
             <p class="feat-title">保存リードの活用（イベント後）</p>
             <p class="feat-text">
               「スキャンして終わり」ではない。保存リードをプロダクト・案件・担当者へアサインし、チーム内でフォローアップのタスク化まで接続。商談・採用につながるまでを支援。
@@ -320,7 +557,14 @@
         </p>
         <div class="device-grid">
           <div class="device-card main reveal reveal-d1" id="device-card-1">
-            <!-- <span class="device-badge device-badge-main">◉ 本命</span> -->
+            <div class="device-img-wrap">
+              <img
+                src="/img/RayBanMetaGlass.webp"
+                alt="Ray-Ban Meta Display"
+                class="device-img"
+              />
+              <span class="device-img-label">Ray-Ban Meta Display</span>
+            </div>
             <p class="device-name">Ray-Ban Meta Display</p>
             <p class="device-text">
               ディスプレイ搭載・カメラ搭載で最有力候補。サードパーティ向けカメラアクセスの開放状況は要検証。
@@ -341,7 +585,14 @@
             </div>
           </div>
           <div class="device-card reveal reveal-d2" id="device-card-2">
-            <!-- <span class="device-badge device-badge-sub">◎ サブ</span> -->
+            <div class="device-img-wrap">
+              <img
+                src="/img/evenG2.jpg"
+                alt="Even Realities G2"
+                class="device-img"
+              />
+              <span class="device-img-label">Even Realities G2</span>
+            </div>
             <p class="device-name">Even Realities G2</p>
             <p class="device-text">
               軽量で常用しやすいディスプレイグラス。カメラ非搭載のためスマホカメラとの連携方式を検討。
@@ -362,7 +613,14 @@
             </div>
           </div>
           <div class="device-card reveal reveal-d3" id="device-card-3">
-            <!-- <span class="device-badge device-badge-sub">◎ デモ用</span> -->
+            <div class="device-img-wrap">
+              <img
+                src="/img/VisionPro.jpeg"
+                alt="Apple Vision Pro"
+                class="device-img"
+              />
+              <span class="device-img-label">Apple Vision Pro</span>
+            </div>
             <p class="device-name">Apple Vision Pro</p>
             <p class="device-text">
               リッチなUI表現が可能。イベント常用にはまだ大型だが、デモ・展示用途に有効。
@@ -459,21 +717,293 @@
         </p>
         <div class="biz-grid">
           <div class="biz-card reveal reveal-d1" id="biz-card-1">
-            <div class="biz-icon">🏢</div>
+            <!-- 🏢 → ビル/主催者アイコン -->
+            <div class="biz-icon">
+              <svg
+                width="56"
+                height="56"
+                viewBox="0 0 56 56"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <rect
+                  x="10"
+                  y="16"
+                  width="22"
+                  height="32"
+                  rx="2"
+                  stroke="#00d4ff"
+                  stroke-width="1.8"
+                />
+                <rect
+                  x="32"
+                  y="24"
+                  width="14"
+                  height="24"
+                  rx="2"
+                  stroke="#00d4ff"
+                  stroke-width="1.8"
+                />
+                <rect
+                  x="15"
+                  y="22"
+                  width="5"
+                  height="5"
+                  rx="1"
+                  fill="#00d4ff"
+                  opacity="0.5"
+                />
+                <rect
+                  x="23"
+                  y="22"
+                  width="5"
+                  height="5"
+                  rx="1"
+                  fill="#00d4ff"
+                  opacity="0.5"
+                />
+                <rect
+                  x="15"
+                  y="31"
+                  width="5"
+                  height="5"
+                  rx="1"
+                  fill="#00d4ff"
+                  opacity="0.5"
+                />
+                <rect
+                  x="23"
+                  y="31"
+                  width="5"
+                  height="5"
+                  rx="1"
+                  fill="#00d4ff"
+                  opacity="0.5"
+                />
+                <rect
+                  x="36"
+                  y="30"
+                  width="4"
+                  height="4"
+                  rx="1"
+                  fill="#00d4ff"
+                  opacity="0.5"
+                />
+                <rect
+                  x="36"
+                  y="38"
+                  width="4"
+                  height="4"
+                  rx="1"
+                  fill="#00d4ff"
+                  opacity="0.5"
+                />
+                <rect
+                  x="18"
+                  y="40"
+                  width="6"
+                  height="8"
+                  rx="1"
+                  stroke="#00d4ff"
+                  stroke-width="1.5"
+                />
+                <line
+                  x1="8"
+                  y1="48"
+                  x2="48"
+                  y2="48"
+                  stroke="#00d4ff"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+                <line
+                  x1="28"
+                  y1="12"
+                  x2="28"
+                  y2="16"
+                  stroke="#00d4ff"
+                  stroke-width="1.5"
+                />
+                <polygon
+                  points="28,6 23,13 33,13"
+                  stroke="#00d4ff"
+                  stroke-width="1.5"
+                  fill="none"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
             <p class="biz-title">顧客：イベント主催者</p>
             <p class="biz-text">
               QR発行・参加者データ連携の主体として主催者が契約。参加者側はアプリ不要でスキャンされる側になれる。
             </p>
           </div>
           <div class="biz-card reveal reveal-d2" id="biz-card-2">
-            <div class="biz-icon">🎟️</div>
+            <!-- 🎟️ → チケット/課金アイコン -->
+            <div class="biz-icon">
+              <svg
+                width="56"
+                height="56"
+                viewBox="0 0 56 56"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <rect
+                  x="6"
+                  y="17"
+                  width="44"
+                  height="22"
+                  rx="3"
+                  stroke="#00d4ff"
+                  stroke-width="1.8"
+                />
+                <line
+                  x1="6"
+                  y1="26"
+                  x2="16"
+                  y2="26"
+                  stroke="#00d4ff"
+                  stroke-width="1.5"
+                />
+                <line
+                  x1="40"
+                  y1="26"
+                  x2="50"
+                  y2="26"
+                  stroke="#00d4ff"
+                  stroke-width="1.5"
+                />
+                <circle
+                  cx="16"
+                  cy="28"
+                  r="3.5"
+                  stroke="#00d4ff"
+                  stroke-width="1.5"
+                  stroke-dasharray="2 2"
+                />
+                <circle
+                  cx="40"
+                  cy="28"
+                  r="3.5"
+                  stroke="#00d4ff"
+                  stroke-width="1.5"
+                  stroke-dasharray="2 2"
+                />
+                <rect
+                  x="20"
+                  y="23"
+                  width="16"
+                  height="10"
+                  rx="2"
+                  stroke="#00d4ff"
+                  stroke-width="1.5"
+                />
+                <line
+                  x1="24"
+                  y1="27"
+                  x2="32"
+                  y2="27"
+                  stroke="#00d4ff"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+                <line
+                  x1="24"
+                  y1="30"
+                  x2="30"
+                  y2="30"
+                  stroke="#00d4ff"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  opacity="0.5"
+                />
+                <line
+                  x1="12"
+                  y1="43"
+                  x2="19"
+                  y2="43"
+                  stroke="#00d4ff"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  opacity="0.4"
+                />
+                <line
+                  x1="22"
+                  y1="43"
+                  x2="29"
+                  y2="43"
+                  stroke="#00d4ff"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  opacity="0.4"
+                />
+                <line
+                  x1="32"
+                  y1="43"
+                  x2="44"
+                  y2="43"
+                  stroke="#00d4ff"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  opacity="0.4"
+                />
+              </svg>
+            </div>
             <p class="biz-title">課金：イベント単位課金</p>
             <p class="biz-text">
               Sansanのような年間サブスクではなく、単発イベントでも導入しやすいイベント単位課金。ハードルを下げて導入事例を積む。
             </p>
           </div>
           <div class="biz-card reveal reveal-d3" id="biz-card-3">
-            <div class="biz-icon">📈</div>
+            <!-- 📈 → 成長グラフ/上位プランアイコン -->
+            <div class="biz-icon">
+              <svg
+                width="56"
+                height="56"
+                viewBox="0 0 56 56"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <line
+                  x1="10"
+                  y1="44"
+                  x2="10"
+                  y2="12"
+                  stroke="#00d4ff"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                />
+                <line
+                  x1="10"
+                  y1="44"
+                  x2="48"
+                  y2="44"
+                  stroke="#00d4ff"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                />
+                <polyline
+                  points="14,38 22,30 30,34 38,22 46,14"
+                  stroke="#00d4ff"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <circle cx="14" cy="38" r="2.5" fill="#00d4ff" opacity="0.8" />
+                <circle cx="22" cy="30" r="2.5" fill="#00d4ff" opacity="0.8" />
+                <circle cx="30" cy="34" r="2.5" fill="#00d4ff" opacity="0.8" />
+                <circle cx="38" cy="22" r="2.5" fill="#00d4ff" opacity="0.8" />
+                <circle cx="46" cy="14" r="3" fill="#00d4ff" />
+                <polygon
+                  points="46,6 42,14 50,14"
+                  fill="#00d4ff"
+                  opacity="0.7"
+                />
+              </svg>
+            </div>
             <p class="biz-title">拡張：上位プラン</p>
             <p class="biz-text">
               出展企業向けのリード管理・アサイン機能・チーム共有・タスク化をオプションとして提供。ARPUを段階的に引き上げる。
@@ -502,28 +1032,12 @@
           </span>
         </h2>
         <p class="cta-sub reveal">イベントの出会いを、もう記憶に頼らせない。</p>
-        <div
-          class="reveal"
-          style="
-            display: flex;
-            gap: 16px;
-            justify-content: center;
-            flex-wrap: wrap;
-          "
-        >
-          <a href="#product" class="btn-primary" id="cta-primary-btn"
-            >プロダクトを見る →</a
-          >
-          <a href="#problem" class="btn-secondary" id="cta-secondary-btn"
-            >課題から見る</a
-          >
-        </div>
       </div>
     </section>
 
     <!-- フッター -->
     <footer>
-      <span class="footer-logo">GLANCE.ai — team remu</span>
+      <span class="footer-logo">SmartBusiness.ai — team remu</span>
       <span class="footer-meta"
         >© 2026 team remu · Spikathon · All rights reserved.</span
       >
